@@ -5,6 +5,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
-ssize_t read_map();
-int validate_map();
+int read_map();
+int validate_map(int fd);
 #endif

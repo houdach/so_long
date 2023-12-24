@@ -6,7 +6,7 @@
 /*   By: hchouai <hchouai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/11 16:32:55 by hchouai           #+#    #+#             */
-/*   Updated: 2023/12/16 17:39:03 by hchouai          ###   ########.fr       */
+/*   Updated: 2023/12/24 15:42:24 by hchouai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1
+#  define BUFFER_SIZE 100000
 # endif
 
 # include <unistd.h>
