@@ -21,11 +21,11 @@
 # include <fcntl.h>
 # include <stdlib.h>
 
-char	*ft_strchr(const char *s, int c);
-char	*ft_strdup(const char *src);
-size_t	ft_strlen(const char *s);
-char	*ft_substr(char const *s, size_t start, size_t len);
-char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strchr( char *s, int c);
+char	*ft_strdup( char *src);
+size_t	ft_strlen(char *s);
+char	*ft_substr(char  *s, size_t start, size_t len);
+char	*ft_strjoin(char *s1, char *s2);
 char	*fill_line_buffer(int fd, char *remainder, char *buffer);
 char	*set_remainder(char *line_buffer);
 char	*get_next_line(int fd);
